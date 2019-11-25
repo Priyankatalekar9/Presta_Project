@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <classes>
+      <class name="com.prestashop.TestClasses.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+    <listeners>
+    <listener class-name="com.prestashop.extentreport.ExtentReportGen"></listener>
+<!--     <listener class-name="com.prestashop.Listeners.SeleniListeners"></listener> -->
+    </listeners>
+    
+  
+</suite> <!-- Suite -->
+
+

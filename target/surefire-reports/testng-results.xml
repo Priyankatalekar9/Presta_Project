@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="210534" started-at="2019-11-25T11:11:14Z" finished-at="2019-11-25T11:14:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="210534" started-at="2019-11-25T11:11:14Z" finished-at="2019-11-25T11:14:44Z">
+      <class name="com.prestashop.TestClasses.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="setup" is-config="true" duration-ms="57959" started-at="2019-11-25T16:41:14Z" finished-at="2019-11-25T16:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="loginTest" duration-ms="4081" started-at="2019-11-25T16:42:12Z" finished-at="2019-11-25T16:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="tearDown" is-config="true" duration-ms="1875" started-at="2019-11-25T16:42:16Z" finished-at="2019-11-25T16:42:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:1, instance:com.prestashop.TestClasses.LoginTest@f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="setup" is-config="true" duration-ms="21136" started-at="2019-11-25T16:42:18Z" finished-at="2019-11-25T16:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTuckimage()[pri:2, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="verifyTuckimage" duration-ms="190" started-at="2019-11-25T16:42:39Z" finished-at="2019-11-25T16:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTuckimage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="tearDown" is-config="true" duration-ms="1468" started-at="2019-11-25T16:42:39Z" finished-at="2019-11-25T16:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTuckimage status=SUCCESS method=LoginTest.verifyTuckimage()[pri:2, instance:com.prestashop.TestClasses.LoginTest@f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="setup" is-config="true" duration-ms="23954" started-at="2019-11-25T16:42:40Z" finished-at="2019-11-25T16:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyInvalidUsername()[pri:3, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="verifyInvalidUsername" duration-ms="2301" started-at="2019-11-25T16:43:04Z" finished-at="2019-11-25T16:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsername -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="tearDown" is-config="true" duration-ms="5445" started-at="2019-11-25T16:43:07Z" finished-at="2019-11-25T16:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidUsername status=SUCCESS method=LoginTest.verifyInvalidUsername()[pri:3, instance:com.prestashop.TestClasses.LoginTest@f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="setup" is-config="true" duration-ms="26517" started-at="2019-11-25T16:43:12Z" finished-at="2019-11-25T16:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPasswordisMandatory()[pri:4, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="verifyPasswordisMandatory" duration-ms="2007" started-at="2019-11-25T16:43:39Z" finished-at="2019-11-25T16:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordisMandatory -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="tearDown" is-config="true" duration-ms="1616" started-at="2019-11-25T16:43:41Z" finished-at="2019-11-25T16:43:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPasswordisMandatory status=SUCCESS method=LoginTest.verifyPasswordisMandatory()[pri:4, instance:com.prestashop.TestClasses.LoginTest@f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="setup" is-config="true" duration-ms="23475" started-at="2019-11-25T16:43:42Z" finished-at="2019-11-25T16:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyForgetPwdLink()[pri:5, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="verifyForgetPwdLink" duration-ms="1448" started-at="2019-11-25T16:44:06Z" finished-at="2019-11-25T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPwdLink -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="tearDown" is-config="true" duration-ms="2079" started-at="2019-11-25T16:44:07Z" finished-at="2019-11-25T16:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgetPwdLink status=SUCCESS method=LoginTest.verifyForgetPwdLink()[pri:5, instance:com.prestashop.TestClasses.LoginTest@f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="setup" is-config="true" duration-ms="31388" started-at="2019-11-25T16:44:09Z" finished-at="2019-11-25T16:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyStayLoginCheckbox()[pri:6, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="verifyStayLoginCheckbox" duration-ms="1469" started-at="2019-11-25T16:44:41Z" finished-at="2019-11-25T16:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStayLoginCheckbox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prestashop.TestClasses.LoginTest@f67b76]" name="tearDown" is-config="true" duration-ms="2046" started-at="2019-11-25T16:44:42Z" finished-at="2019-11-25T16:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStayLoginCheckbox status=SUCCESS method=LoginTest.verifyStayLoginCheckbox()[pri:6, instance:com.prestashop.TestClasses.LoginTest@f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prestashop.TestClasses.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
